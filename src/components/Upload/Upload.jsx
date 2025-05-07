@@ -49,7 +49,7 @@ export default function Upload({ onFileSelect }) {
       {!preview ? (
         <>
           <div className='icon'>＋</div>
-          <div className='placeholder'>파일을 클릭하거나 드래그하세요</div>
+          <div className='placeholder'>파일을 업로드하거나 드래그하세요</div>
         </>
       ) : (
         <img src={preview} alt='Preview' className='preview' />
